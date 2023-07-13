@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = {
-  entry: "./src/ver1 - simple/index.js",
+  entry: "./src/ver2 - building redux/index.js",
   output: {
     filename: "app.js",
     path: path.resolve(__dirname, "dist"),
