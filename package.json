@@ -11,7 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "@reduxjs/toolkit": "^1.2.5",
-    "redux": "^4.2.1"
+    "redux": "^4.2.1",
+    "reselect": "^4.1.8"
   },
   "devDependencies": {
     "webpack": "4.41.6",
