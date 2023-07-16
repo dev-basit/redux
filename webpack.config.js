@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = {
-  entry: "./src/store/ver4 - redux toolkit/index.js",
+  entry: "./src/store/ver5 - applying middleware/index.js",
   output: {
     filename: "app.js",
     path: path.resolve(__dirname, "dist"),
