@@ -7,7 +7,7 @@ const store = configureStore();
 
 console.log(store.getState());
 
-store.dispatch(actions.bugAdded({ description: "Bug 1" }));
+// store.dispatch(actions.bugAdded({ description: "Bug 1" }));
 // store.dispatch(actions.bugAdded({ description: "Bug 1" }));
 // store.dispatch(actions.bugAdded({ description: "Bug 2" }));
 // store.dispatch(actions.bugAdded({ description: "Bug 3" }));

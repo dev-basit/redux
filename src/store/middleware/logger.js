@@ -7,7 +7,7 @@
 // };
 
 // if you are passing parameters to middle, use this approach
-export default logger = (params) => (store) => (next) => (action) => {
+const logger = (params) => (store) => (next) => (action) => {
   console.log("params ", params);
   console.log("store ", store);
   console.log("next ", next);
@@ -15,3 +15,5 @@ export default logger = (params) => (store) => (next) => (action) => {
 
   next();
 };
+
+export default logger;
